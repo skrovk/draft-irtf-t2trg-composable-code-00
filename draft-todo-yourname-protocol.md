@@ -74,6 +74,7 @@ TODO Introduction
 bytecode: 
 runtime: environment necessary to execute bytecode on host platform
 control task: containerised unit of control code, part of control process 
+identity: location-independent addressable identifier of control task
 system interface: facilitates secure access to resources outside of the sandbox  
 communication interface: facilitates secure access to communication primitives with other control tasks
 manifest: a signed structure containing list of resources (from system and communication interfaces) a control task can access 
