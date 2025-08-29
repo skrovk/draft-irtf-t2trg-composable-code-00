@@ -71,6 +71,22 @@ TODO Introduction
 
 {::boilerplate bcp14-tagged}
 
+bytecode: 
+runtime: environment necessary to execute bytecode on host platform
+control task: containerised unit of control code, part of control process 
+system interface: facilitates secure access to resources outside of the sandbox  
+communication interface: facilitates secure access to communication primitives with other control tasks
+manifest: a signed structure containing list of resources (from system and communication interfaces) a control task can access 
+command: a message containing instructions for a device to execute a set of operations  
+server/orchestrator: a device with privileges to send commands to set of devices
+
+%% System  characteristics %%
+evolvability: the ability progresively update software on devices and outsource responsibility for updates to multiple entities (e.g. developers, manufacturers), while not compromising device's integration into the larger system  
+isolation:
+privilege:
+%% Lifecycle %%
+provisioning
+update
 
 # Security Considerations
 
